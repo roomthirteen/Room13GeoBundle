@@ -1,6 +1,6 @@
 <?php
 
-namespace Balkanride\FrontendBundle\Twig;
+namespace Room13\GeoBundle\Twig;
 
 use Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfProviderInterface;
 use Doctrine\ORM\EntityManager;
@@ -21,9 +21,16 @@ class GeoExtension extends \Twig_Extension
         $this->container = $container;
     }
 
-    public function flag($country)
+    public function flag($country,$type='png')
     {
-        return "f";
+        $path = 'bundles/room13geo/flags/'.$type.'/'.$country.'.'.$type;
+        $url = $this->container->get('templating.helper.assets')->getUrl($path);
+
+        return sprintf(
+            '<img src="%s" alt="%s" />',
+            $url,
+            $country
+        );
     }
 
     public function getFunctions()
