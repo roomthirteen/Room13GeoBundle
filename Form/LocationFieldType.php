@@ -11,6 +11,23 @@ class LocationFieldType extends AbstractType
     {
     }
 
+    public function getAllowedOptionValues(array $options)
+    {
+        return parent::getAllowedOptionValues($options);
+    }
+
+    public function getParent(array $options)
+    {
+        return 'integer';
+    }
+
+
+    public function getDefaultOptions(array $options)
+    {
+        return array(
+            'type' => 'country',
+        );
+    }
 
     function getName()
     {

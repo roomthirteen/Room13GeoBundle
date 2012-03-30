@@ -1,0 +1,14 @@
+{% block room13_geo_location_widget %}
+<div id="{{ id }}_container" class="Room13GeoLocationAutocomplete" data-source="{{path("room13_geo_autocomplete_location",{type:"city"})}}">
+    <input type="hidden" class="Output" type="text" id="{{ id }}" name="{{ full_name }}" />
+    {% spaceless %}
+        <input
+                class="Input"
+                type="text"
+                id="{{ id }}_display"
+                autocomplete="off"
+        />
+    {% endspaceless %}
+    <img style="" class="Loader" src="{{ asset('bundles/room13geo/loader.gif') }}" />
+</div>
+{% endblock %}

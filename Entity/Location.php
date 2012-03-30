@@ -172,5 +172,26 @@ abstract class Location implements Translatable
     }
 
 
+    public static function mapStringToClass($string)
+    {
+        static $classMapping = array(
+            'country'=>'Room13GeoBundle:Country',
+            'city'=>'Room13GeoBundle:City',
+        );
+
+        $string = strtolower(trim($string));
+
+        if(!isset($classMapping))
+        {
+            throw new \InvalidArgumentException(sprintf(
+                'Unknown location type "%s"',
+                $string
+            ));
+        }
+
+        return $classMapping[$string];
+    }
+
+
 
 }

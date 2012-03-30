@@ -18,6 +18,11 @@ class City extends Location
      */
     private $country;
 
+    function __toString()
+    {
+        return $this->getName().' ('.$this->country->getName().')';
+    }
+
 
     /**
      * @param \Room13\GeoBundle\Entity\Country $country
