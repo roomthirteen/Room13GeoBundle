@@ -14,8 +14,8 @@ use Gedmo\Mapping\Annotation as Gedmo;
  */
 class Location implements \Gedmo\Translatable\Translatable
 {
-
     const TYPE_UNDEFINED=0;
+    const TYPE_ALL=1;
     const TYPE_COUNTRY=100;
     const TYPE_CITY=200;
     const TYPE_PLACE=300;
@@ -40,7 +40,7 @@ class Location implements \Gedmo\Translatable\Translatable
     /**
      * @var string $name
      *
-     * @ORM\Column(name="shortcut", type="string", length=127, nullable=true)
+     * @ORM\Column(name="shortcut", type="string", length=127, nullable=true, unique=true)
      */
     private $shortcut;
 
