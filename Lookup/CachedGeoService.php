@@ -36,7 +36,6 @@ class CachedGeoService implements GeoServiceInterface
 
         if($this->cache->contains($id))
         {
-            echo "cached";
             return $this->cache->fetch($id);
         }
         else
