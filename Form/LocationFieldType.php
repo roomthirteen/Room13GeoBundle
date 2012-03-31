@@ -2,32 +2,37 @@
 
 namespace Room13\GeoBundle\Form;
 
-use Symfony\Component\Form\AbstractType;
-use Doctrine\ORM\EntityManager;
+use Symfony\Component\Form as Form;
 
-class LocationFieldType extends AbstractType
+class LocationFieldType extends Form\AbstractType
 {
-    function __construct(EntityManager $em)
+
+
+    /**
+     * @var Form\DataTransformerInterface
+     */
+    private $dataTransformer;
+
+    function __construct(Form\DataTransformerInterface $dataTransformer)
     {
+      $this->dataTransformer = $dataTransformer;
     }
 
-    public function getAllowedOptionValues(array $options)
+
+    /**
+     * {@inheritdoc}
+     */
+    public function buildForm(Form\FormBuilder $builder, array $options)
     {
-        return parent::getAllowedOptionValues($options);
+        $builder->prependClientTransformer($this->dataTransformer);
     }
+
 
     public function getParent(array $options)
     {
-        return 'integer';
+        return 'choice';
     }
 
-
-    public function getDefaultOptions(array $options)
-    {
-        return array(
-            'type' => 'country',
-        );
-    }
 
     function getName()
     {

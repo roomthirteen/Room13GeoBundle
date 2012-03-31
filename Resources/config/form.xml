@@ -8,6 +8,10 @@
 
         <service id="room13_geo.form.fields.location" class="Room13\GeoBundle\Form\LocationFieldType">
             <tag name="form.type" alias="room13_geo_location" />
+            <argument type="service" id="room13_geo.form.fields.location.transformer" />
+        </service>
+
+        <service id="room13_geo.form.fields.location.transformer" class="Room13\GeoBundle\Form\LocationDataTransformer">
             <argument type="service" id="doctrine.orm.entity_manager" />
         </service>
 
