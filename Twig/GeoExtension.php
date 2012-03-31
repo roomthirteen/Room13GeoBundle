@@ -23,6 +23,11 @@ class GeoExtension extends \Twig_Extension
 
     public function flag($country,$type='png')
     {
+        if($country instanceof \Room13\GeoBundle\Entity\Country)
+        {
+            $country = $country->getCountryCode();
+        }
+
         $path = 'bundles/room13geo/flags/'.$type.'/'.$country.'.'.$type;
         $url = $this->container->get('templating.helper.assets')->getUrl($path);
 
