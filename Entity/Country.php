@@ -22,6 +22,12 @@ class Country extends Location
      */
     private $cities;
 
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     * @ORM\ManyToMany(targetEntity="Country", inversedBy="countries")
+     */
+    private $languages;
+
 
     public function setCities($cities)
     {

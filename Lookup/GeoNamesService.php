@@ -79,7 +79,7 @@ class GeoNamesService implements GeoServiceInterface
         $defaultParams = array(
             'q'         => $term,
             'maxRows'   => intval($rows),
-            'style'     => 'SHORT'
+            'style'     => 'FULL'
         );
 
         $params = array_merge($defaultParams,$params);
