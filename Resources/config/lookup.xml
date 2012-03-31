@@ -12,8 +12,15 @@
 
         <service id="room13_geo.lookup.geonames.cached" class="Room13\GeoBundle\Lookup\CachedGeoService">
             <argument type="service" id="room13_geo.lookup.geonames" />
-            <argument type="service" id="winzou_cache.file" />
+            <argument type="service" id="room13_geo.lookup.cache" />
         </service>
+
+        <service id="room13_geo.lookup.cache" class="%winzou_cache.driver.file%" public="false">
+            <argument type="collection">
+                <argument key="cache_dir">%kernel.root_dir%/../data/room13geo</argument>
+            </argument>
+        </service>
+
 
     </services>
 
