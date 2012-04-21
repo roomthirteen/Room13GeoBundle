@@ -25,6 +25,11 @@ class Country extends Location
     /**
      * @var \Doctrine\Common\Collections\Collection
      * @ORM\ManyToMany(targetEntity="Country", inversedBy="countries")
+     * @ORM\JoinTable(
+     *      name="room13_geo_country_languages",
+     *      joinColumns={@ORM\JoinColumn(name="country_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="language_id", referencedColumnName="id")}
+     * )
      */
     private $languages;
 

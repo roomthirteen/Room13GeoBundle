@@ -10,7 +10,7 @@ use Gedmo\Translatable\Translatable;
  * @ORM\Entity
  * @ORM\Table(name="room13_geo_language")
  */
-abstract class Language implements Translatable
+class Language implements Translatable
 {
 
     /**
@@ -30,32 +30,21 @@ abstract class Language implements Translatable
      */
     protected $name;
 
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="origin_name", type="string", length=255)
+     */
+    protected $originName;
+
+
     /**
      * @var string $languageCode
      *
-     * @ORM\Column(name="language_code", type="string", length=2,unique=true)
+     * @ORM\Column(name="language_code", type="string", length=2,unique=false)
      */
     protected $languageCode;
-
-    /**
-     * @var \Doctrine\Common\Collections\Collection
-     * @ORM\ManyToMany(targetEntity="Country", inversedBy="languages")
-     */
-    private $countries;
-
-
-    function __toString()
-    {
-        return $this->getName().' ('.$this->country->getName().')';
-    }
-
-    /**
-     * @var string $slug
-     *
-     * @Gedmo\Slug(fields={"name"})
-     * @ORM\Column(name="slug", type="string", length=255)
-     */
-    protected $slug;
 
 
     /**
@@ -70,21 +59,11 @@ abstract class Language implements Translatable
 
     }
 
-    /**
-     * @param \Doctrine\Common\Collections\Collection $countries
-     */
-    public function setCountries($countries)
+    function __toString()
     {
-        $this->countries = $countries;
+        return $this->name;
     }
 
-    /**
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getCountries()
-    {
-        return $this->countries;
-    }
 
     /**
      * @param int $id
@@ -145,18 +124,20 @@ abstract class Language implements Translatable
     }
 
     /**
-     * @param string $slug
+     * @param string $originName
      */
-    public function setSlug($slug)
+    public function setOriginName($originName)
     {
-        $this->slug = $slug;
+        $this->originName = $originName;
     }
 
     /**
      * @return string
      */
-    public function getSlug()
+    public function getOriginName()
     {
-        return $this->slug;
+        return $this->originName;
     }
+
+
 }
