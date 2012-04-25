@@ -21,27 +21,31 @@ class GeoExtension extends \Twig_Extension
         $this->container = $container;
     }
 
-    public function flag($country,$type='png')
+    public function flag($code,$type='png')
     {
-        if($country instanceof \Room13\GeoBundle\Entity\Country)
+        if($code instanceof \Room13\GeoBundle\Entity\Country)
         {
-            $country = $country->getCountryCode();
+            $code = $code->getCountryCode();
+        }
+        elseif($code instanceof \Room13\GeoBundle\Entity\Language)
+        {
+            $code = $code->getLanguageCode();
         }
 
-        $path = 'bundles/room13geo/flags/'.$type.'/'.$country.'.'.$type;
+        $path = 'bundles/room13geo/flags/'.$type.'/'.$code.'.'.$type;
         $url = $this->container->get('templating.helper.assets')->getUrl($path);
 
         return sprintf(
             '<img src="%s" alt="%s" />',
             $url,
-            $country
+            $code
         );
     }
 
-    public function getFunctions()
+    public function getFilters()
     {
         return array(
-            'room13_geo_flag' => new \Twig_Function_Method($this,'flag'),
+            'room13_geo_flag' => new \Twig_Filter_Method($this,'flag',array('is_safe'=>array('html'))),
         );
     }
 

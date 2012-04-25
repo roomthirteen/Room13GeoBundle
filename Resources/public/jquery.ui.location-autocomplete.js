@@ -8,6 +8,17 @@ $('.Room13GeoLocationAutocomplete').each(function()
         output   = $this.find('.Output'),
         loader   = $this.find('.Loader');
 
+
+    // normalize the input, because the value will be <id>|<name>
+    // we need to split it and set the id to the hidden field
+    var values = input.val().split('|');
+    if(values.length>1)
+    {
+        input.val(values[1]);
+        output.val(values[0]);
+    }
+
+
     input.focus(function(){
         this.select();
     });

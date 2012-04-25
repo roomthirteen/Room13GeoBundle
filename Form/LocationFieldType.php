@@ -25,6 +25,7 @@ class LocationFieldType extends Form\AbstractType
     public function buildForm(Form\FormBuilder $builder, array $options)
     {
         $builder->prependClientTransformer($this->dataTransformer);
+        //var_dump($options);
     }
 
 

@@ -21,10 +21,10 @@ class LocationDataTransformer implements \Symfony\Component\Form\DataTransformer
     {
         if($value instanceof \Room13\GeoBundle\Entity\City)
         {
-            return $value->__toString();
+            return $value->getId().'|'.$value->__toString();
         }
 
-        return ''.$value;
+        return $value;
     }
 
 
