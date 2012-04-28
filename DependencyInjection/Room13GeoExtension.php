@@ -26,5 +26,9 @@ class Room13GeoExtension extends Extension
         $loader->load('lookup.xml');
         $loader->load('twig.xml');
         $loader->load('form.xml');
+
+        // TODO: add check if solr services are present, otherwise don't load
+        // maybe $container->hasDefinition
+        $loader->load('solr.xml');
     }
 }
