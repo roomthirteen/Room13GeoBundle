@@ -17,7 +17,7 @@
 
         <service id="room13_geo.lookup.cache" class="%winzou_cache.driver.file%" public="false">
             <argument type="collection">
-                <argument key="cache_dir">%kernel.root_dir%/../data/room13geo</argument>
+                <argument key="cache_dir">%kernel.shared_dir%/data/room13geo</argument>
             </argument>
         </service>
 
