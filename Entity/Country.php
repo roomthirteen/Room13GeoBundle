@@ -12,7 +12,7 @@ class Country extends Location
 {
     /**
      * @var string
-     * @ORM\Column(name="country_code",type="string",length="2",unique=true,nullable=false)
+     * @ORM\Column(name="country_code",type="string",length=2,unique=true,nullable=false)
      */
     private $countryCode;
 
