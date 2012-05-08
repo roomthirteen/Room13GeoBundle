@@ -20,6 +20,11 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('room13_geo');
 
+        $rootNode
+            ->children()
+            ->scalarNode('cache_dir')->cannotBeEmpty()->defaultValue('%kernel.root_dir%/cache/room13geo')
+            ->end()
+        ;
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
         // more information on that topic.

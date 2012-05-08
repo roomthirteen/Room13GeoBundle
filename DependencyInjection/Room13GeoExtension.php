@@ -30,5 +30,8 @@ class Room13GeoExtension extends Extension
         // TODO: add check if solr services are present, otherwise don't load
         // maybe $container->hasDefinition
         $loader->load('solr.xml');
+
+
+        $container->setParameter('room13.geo.cache_dir',$config['cache_dir']);
     }
 }

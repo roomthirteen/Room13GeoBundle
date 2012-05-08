@@ -4,6 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
+
     <services>
         <service id="room13_geo.lookup" alias="room13_geo.lookup.geonames.cached" />
 
@@ -17,7 +18,7 @@
 
         <service id="room13_geo.lookup.cache" class="%winzou_cache.driver.file%" public="false">
             <argument type="collection">
-                <argument key="cache_dir">%kernel.shared_dir%/data/room13geo</argument>
+                <argument key="cache_dir">%room13.geo.cache_dir%</argument>
             </argument>
         </service>
 
