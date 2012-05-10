@@ -22,7 +22,11 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-            ->scalarNode('cache_dir')->cannotBeEmpty()->defaultValue('%kernel.root_dir%/cache/room13geo')
+                ->booleanNode('twig')->cannotBeEmpty()->defaultTrue()->end()
+                ->booleanNode('form')->cannotBeEmpty()->defaultTrue()->end()
+                ->booleanNode('lookup')->cannotBeEmpty()->defaultTrue()->end()
+                ->booleanNode('solr')->cannotBeEmpty()->defaultFalse()->end()
+                ->scalarNode('cache_dir')->cannotBeEmpty()->defaultValue('%kernel.root_dir%/cache/room13geo')->end()
             ->end()
         ;
         // Here you should define the parameters that are allowed to

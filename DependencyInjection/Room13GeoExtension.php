@@ -23,14 +23,15 @@ class Room13GeoExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('lookup.xml');
-        $loader->load('twig.xml');
-        $loader->load('form.xml');
 
-        // TODO: add check if solr services are present, otherwise don't load
-        // maybe $container->hasDefinition
-        $loader->load('solr.xml');
 
+        foreach(array('lookup','twig','form','solr') as $feature)
+        {
+            if($config[$feature])
+            {
+                $loader->load($feature.'.xml');
+            }
+        }
 
         $container->setParameter('room13.geo.cache_dir',$config['cache_dir']);
     }
