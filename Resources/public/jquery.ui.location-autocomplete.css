@@ -1,9 +1,5 @@
-.Room13GeoLocationAutocomplete
-{
-    display: inline;
-}
 
-.Room13GeoLocationAutocomplete .Loader
+.Room13GeoLocationWidget .Loader
 {
     display: none;
 }

@@ -3,6 +3,7 @@
 namespace Room13\GeoBundle\Form;
 
 use Doctrine\ORM\EntityManager;
+use Room13\GeoBundle\Entity\Location;
 
 class LocationDataTransformer implements \Symfony\Component\Form\DataTransformerInterface
 {
@@ -19,20 +20,29 @@ class LocationDataTransformer implements \Symfony\Component\Form\DataTransformer
 
     function transform($value)
     {
-        if($value instanceof \Room13\GeoBundle\Entity\City)
+        $transformedValue = array(
+            'id'=>'',
+            'name'=>''
+        );
+
+        if($value instanceof Location)
         {
-            return $value->getId().'|'.$value->__toString();
+            $transformedValue['id'] = $value->getId();
+            $transformedValue['name'] = $value->__toString();
         }
 
-        return $value;
+        return $transformedValue;
     }
 
 
     function reverseTransform($value)
     {
-        $repository = $this->em->getRepository('Room13GeoBundle:City');
-        $entity = $repository->findOneById($value);
+        if(is_array($value) && isset($value['id']))
+        {
+            $repository = $this->em->getRepository('Room13GeoBundle:City');
+            return $repository->findOneById($value);
+        }
 
-        return $entity;
+        return null;
     }
 }

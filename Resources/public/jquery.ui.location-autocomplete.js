@@ -1,39 +1,65 @@
 
-$('.Room13GeoLocationAutocomplete').each(function()
+$('.Room13GeoLocationWidget').each(function()
 {
 
-    var $this    = $(this),
-        source   = $this.data('source'),
-        input    = $this.find('.Input'),
-        output   = $this.find('.Output'),
-        loader   = $this.find('.Loader');
 
 
-    // normalize the input, because the value will be <id>|<name>
-    // we need to split it and set the id to the hidden field
-    var values = input.val().split('|');
-    if(values.length>1)
+    var $this     = $(this),
+        sourceUrl = $this.data('source'),
+        input     = $this.find('input[type=text]'),
+        output    = $this.find('input[type=hidden]'),
+        loader    = $this.find('.Loader');
+
+
+    function inputFocused()
     {
-        input.val(values[1]);
-        output.val(values[0]);
+        this.select();
     }
 
+    function dataLoaded(data,response)
+    {
+        // publish autocomplete data
+        response(data);
 
-    input.focus(function(){
-        this.select();
-    });
+        // hide the loader
+        loader.hide();
+
+        // clean value if no results where found
+        if(data.length==0)
+        {
+            output.val('');
+        }
+    }
+
+    function locationSelected(evt,ui)
+    {
+        // write back id to hidden field
+        // the input field will be populated automaticly by the autocomplete widget
+        output.val(ui.item.id);
+    }
+
+    function searchStarted()
+    {
+        // show the load indicator
+        loader.show();
+    }
+
+    input.focus(inputFocused);
 
     input.autocomplete({
-        source: source,
         minLength: 1,
-        select: function(evt,ui){
-            output.val(ui.item.id);
+        source: function (request, response) {
+            $.ajax({
+                url: sourceUrl,
+                dataType: "json",
+                data: request,
+                success: function(data){
+                    dataLoaded(data,response)
+                }
+            });
         },
-        search: function(){
-            loader.show();
-        },
-        open: function(){
-            loader.hide();
-        }
+
+        select: locationSelected,
+        search: searchStarted
     });
 });
