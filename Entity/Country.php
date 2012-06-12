@@ -3,10 +3,10 @@
 namespace Room13\GeoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="room13_geo_country")
  */
 class Country extends Location
 {
@@ -33,6 +33,16 @@ class Country extends Location
      */
     private $languages;
 
+
+    public function __construct()
+    {
+        $this->cities = new ArrayCollection();
+    }
+
+    public function getType()
+    {
+        return 'country';
+    }
 
     public function setCities($cities)
     {

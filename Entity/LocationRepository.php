@@ -13,17 +13,4 @@ use Doctrine\ORM\EntityRepository;
 class LocationRepository extends EntityRepository
 {
 
-    public function findType($type)
-    {
-        switch($type)
-        {
-            case Location::TYPE_ALL: return $this->findAll();
-            default: return $this->findByType($type);
-        }
-    }
-
-    public function findCountries()
-    {
-        return $this->findByType(Location::TYPE_COUNTRY);
-    }
 }

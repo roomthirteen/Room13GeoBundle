@@ -3,10 +3,10 @@
 namespace Room13\GeoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="room13_geo_city")
  */
 class City extends Location
 {
@@ -18,9 +18,26 @@ class City extends Location
      */
     private $country;
 
+
+    /**
+     * @ORM\OneToMany(targetEntity="Spot", mappedBy="spots")
+     */
+    private $spots;
+
+
+    public function __construct()
+    {
+        $this->spots = new ArrayCollection();
+    }
+
     function __toString()
     {
         return $this->getName().' ('.$this->country->getName().')';
+    }
+
+    public function getType()
+    {
+        return 'city';
     }
 
 

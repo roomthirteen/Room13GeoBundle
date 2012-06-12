@@ -9,7 +9,11 @@ use Gedmo\Translatable\Translatable;
 /**
  * Room13\GeoBundle\Entity\Location
  *
- * @ORM\MappedSuperclass
+ * @ORM\Entity
+ * @ORM\Table(name="room13_geo_location")
+ * @ORM\InheritanceType("SINGLE_TABLE")
+ * @ORM\DiscriminatorColumn(name="type", type="string")
+ * @ORM\DiscriminatorMap({"country" = "Country", "city" = "City", "spot" = "Spot"})
  */
 abstract class Location implements Translatable
 {
@@ -54,13 +58,26 @@ abstract class Location implements Translatable
      */
     protected $slug;
 
+    /**
+     * @var \DateTime $created
+     *
+     * @Gedmo\Timestampable(on="create")
+     * @ORM\Column(type="datetime")
+     */
+    protected $created;
+
+    /**
+     * @var \DateTime  $updated
+     *
+     * @Gedmo\Timestampable(on="update")
+     * @ORM\Column(type="datetime")
+     */
+    protected $updated;
 
     /**
      * @Gedmo\Locale
-     * Used locale to override Translation listener`s locale
-     * this is not a mapped field of entity metadata, just a simple property
      */
-    protected $locale;
+    protected $translatableLocale;
 
     function __construct()
     {
@@ -161,37 +178,18 @@ abstract class Location implements Translatable
 
 
 
-    public function setLocale($locale)
+    public function setTranslatableLocale($locale)
     {
-        $this->locale = $locale;
+        $this->translatableLocale = $locale;
     }
 
-    public function getLocale()
+    public function getTranslatableLocale()
     {
-        return $this->locale;
+        return $this->translatableLocale;
     }
 
 
-    public static function mapStringToClass($string)
-    {
-        static $classMapping = array(
-            'country'=>'Room13GeoBundle:Country',
-            'city'=>'Room13GeoBundle:City',
-        );
-
-        $string = strtolower(trim($string));
-
-        if(!isset($classMapping))
-        {
-            throw new \InvalidArgumentException(sprintf(
-                'Unknown location type "%s"',
-                $string
-            ));
-        }
-
-        return $classMapping[$string];
-    }
-
+    public abstract function getType();
 
 
 }
