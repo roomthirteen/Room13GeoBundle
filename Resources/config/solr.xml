@@ -6,7 +6,7 @@
 
     <services>
 
-        <service id="room13.geo.solr.index.city" class="Room13\GeoBundle\Solr\CityIndex">
+        <service id="room13.geo.solr.index.city" class="Room13\GeoBundle\Solr\LocationIndex">
             <tag name="room13.solr.index" />
             <argument type="service" id="doctrine.orm.entity_manager" />
         </service>
