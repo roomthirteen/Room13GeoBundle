@@ -39,7 +39,7 @@ class LocationDataTransformer implements \Symfony\Component\Form\DataTransformer
     {
         if(is_array($value) && isset($value['id']))
         {
-            $repository = $this->em->getRepository('Room13GeoBundle:City');
+            $repository = $this->em->getRepository('Room13GeoBundle:Location');
             return $repository->findOneById($value);
         }
 
