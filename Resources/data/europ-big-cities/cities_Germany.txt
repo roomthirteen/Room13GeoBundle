@@ -1,0 +1,516 @@
+Aachen
+Aalen
+Achern
+Ahlen
+Ahrensburg
+Albstadt
+Alsfeld
+Altenburg
+Altenkirchen/Westerw.
+Altotting
+Alzey
+Amberg
+Andernach
+Anklam
+Annaberg-Buchholz
+Ansbach
+Arnsberg
+Arnstadt
+Aschaffenburg
+Aschersleben
+Aue (Sachsen)
+Augsburg
+Aurich
+Backnang
+Bad Fussing
+Bad Gandersheim
+Bad Hersfeld
+Bad Homburg
+Bad Kissingen
+Bad Kreuznach
+Bad Nauheim
+Bad Neustadt/Saale
+Bad Oeynhausen
+Bad Pyrmont
+Bad Reichenhall
+Bad Salzuflen
+Bad Segeberg
+Bad Tolz
+Baden-Baden
+Balingen
+Bamberg
+Bautzen
+Bayreuth
+Bayrischzell
+Beckum
+Belp
+Bensheim
+Berchtesgaden
+Bergheim
+Bergisch Gladbach
+Berlin
+Berlin Schonefeld Airport
+Berlin Tegel Airport
+Bernau (bei Berlin)
+Bernau am Chiemsee
+Bernburg/ Saale
+Bernex
+Biberach/Riss
+Bielefeld
+Bietigheim-Bissingen
+Bingen am Rhein
+Bitburg
+Bitterfeld-Wolfen
+Boblingen
+Bocholt
+Bochum
+Bonn
+Borken (NRW)
+Bottrop
+Brandenburg/ Havel
+Braunschweig
+Bremen
+Bremerhaven
+Brilon
+Bruchsal
+Bruhl
+Buchholz i.d. Nordheide
+Buhl (BW)
+Burg (bei Magdeburg)
+Buxtehude
+Calw
+Castrop-Rauxel
+Celle
+Cham
+Chemnitz
+Clausthal-Zellerfeld
+Cloppenburg
+Coburg
+Coesfeld
+Cologne
+Cologne Bonn Airport
+Cottbus
+Crailsheim
+Cuxhaven
+Dachau
+Darmstadt
+Daun
+Deggendorf
+Delmenhorst
+Dessau
+Detmold
+Diepholz
+Dillenburg
+Dingolfing
+Dinslaken
+Dobeln
+Donaueschingen
+Donauworth
+Dorsten
+Dortmund
+Dresden
+Dresden Kirchentag
+Duisburg
+Dulmen
+Duren
+Dusseldorf
+Eberswalde-Finow
+Eckernforde
+Eichstatt
+Eisenach
+Eisenhuttenstadt
+Elmshorn
+Emden
+Emmendingen
+Erding
+Erftstadt
+Erfurt
+Erkelenz
+Erkrath
+Erlangen
+Eschwege
+Eschweiler
+Essen
+Esslingen/ Neckar
+Ettlingen
+Euskirchen
+Eutin
+Fehmarn
+Filderstadt
+Finsterwalde
+Flensburg
+Fohr
+Forchheim
+Frankenthal/ Pfalz
+Frankfurt Hahn Airport
+Frankfurt/Main
+Frankfurt/Main Airport
+Frankfurt/Oder
+Frechen
+Freiberg/Sachsen
+Freiburg/ Breisgau
+Freising
+Freital
+Freudenstadt
+Friedrichshafen
+Fulda
+Furstenfeldbruck
+Furstenwalde/ Spree
+Furth
+Furtwangen
+Fussen
+Garbsen
+Garmisch-Partenkirchen
+Geldern
+Gelnhausen
+Gelsenkirchen
+Gera
+Geretsried
+Germering
+Germersheim
+Gie?en
+Gifhorn
+Gladbeck
+Goppingen
+Gorlitz
+Goslar
+Gotha
+Gottingen
+Greifswald
+Greiz
+Grevenbroich
+Grimma
+Gronau/ Westfalen
+Guben
+Gummersbach
+Gustrow
+Gutersloh
+Hagen
+Halberstadt
+Halle/ Saale
+Haltern
+Hamburg
+Hamburg Airport
+Hameln
+Hamm
+Hanau
+Hannover
+Hannover Airport
+Hattingen (NW)
+Heide
+Heidelberg
+Heidenheim/ Brenz
+Heilbronn
+Heinsberg
+Helmstedt
+Hennef/ Sieg
+Herford
+Herne
+Herrenberg
+Herten
+Herzogenrath
+Highfield Festival
+Hilden
+Hildesheim
+Hof
+Hofheim/ Taunus
+Holzkirchen
+Homburg
+Horb a.N.
+Hoxter
+Hoyerswerda
+Hurth
+Husum
+Ibbenburen
+Idar-Oberstein
+Idstein
+Ilmenau
+Ingolstadt
+Iserlohn
+Itzehoe
+Jena
+Julich
+Kaarst
+Kaiserslautern
+Kaltenkirchen
+Kamen
+Kamenz
+Kamp-Lintfort
+Karlsruhe
+Karlsruhe/Baden Airport
+Kassel
+Kaufbeuren
+Kehl/Rhein
+Kelheim
+Kempen
+Kempten/Allg.
+Kerpen
+Kiel
+Kirchheim unter Teck
+Kitzingen
+Kleve
+Koblenz
+Konigs Wusterhausen
+Konigswinter
+Konstanz
+Korbach
+Kothen/ Anhalt
+Krefeld
+Kronach
+Kulmbach
+Kunzelsau
+Laatzen
+Lage
+Lahr/ Schwarzwald
+Landau/ Pfalz
+Landsberg am Lech
+Landshut
+Langenfeld/ Rheinland
+Langenhagen
+Lauchhammer
+Lauf a. d. Pegnitz
+Leer
+Lehrte
+Leinefelde-Worbis
+Leinfelden-Echterdingen
+Leipzig
+Leipzig-Halle Airport
+Lemgo
+Lenggries
+Leonberg (BW)
+Leverkusen
+Limburg/ Lahn
+Lindau (Bodensee)
+Lingen/ Ems
+Lippstadt
+Lobau (Sachsen)
+Lohne
+Lohr am Main
+Lorrach
+Lubben
+Lubeck
+Luckenwalde
+Ludenscheid
+Ludwigsburg
+Ludwigsfelde
+Ludwigshafen/ Rhein
+Ludwigslust
+Luneburg
+Lunen
+Lutherstadt Eisleben
+Lutherstadt Wittenberg
+Magdeburg
+Maintal
+Mainz
+Mannheim
+Marburg
+Marktredwitz
+Marl
+Mayen
+Meerbusch
+Meersburg
+Meiningen
+Mei?en
+Melle
+Memmingen
+Menden/ Sauerland
+Meppen
+Merseburg/ Saale
+Merzig
+Meschede
+Mettmann
+Michelstadt
+Minden
+Mittweida
+Moers
+Molln
+Monchengladbach
+Monheim (NW)
+Montabaur
+Mosbach (Baden)
+Muhlhausen (Thur.)
+Mulheim/ Ruhr
+Munich
+Munich Airport
+Munster
+Naumburg/ Saale
+Neu-Isenburg
+Neu-Ulm
+Neubrandenburg
+Neuburg/Donau
+Neumarkt/ Oberpfalz
+Neumunster
+Neunkirchen/Saar
+Neuruppin
+Neuss
+Neustadt a.d. Aisch
+Neustadt/ Rubenberge
+Neustadt/ Weinstra?e
+Neustrelitz
+Neuwied
+Nienburg/Weser
+Norden
+Norderstedt
+Nordhausen
+Nordhorn
+Nordlingen
+Nortorf
+Nurburgring
+Nurnberg
+Nurtingen
+Oberhausen
+Oberstdorf
+Oberursel/ Taunus
+Offenbach/ Main
+Offenburg
+Oldenburg (Oldb)
+Olpe
+Oranienburg
+Osnabruck
+Paderborn
+Papenburg
+Parchim
+Pasewalk
+Passau
+Peine
+Perleberg
+Pfaffenhofen/Ilm
+Pfarrkirchen
+Pforzheim
+Pinneberg
+Pirmasens
+Pirna
+Plauen
+Porta Westfalica
+Potsdam
+Prenzlau
+Pulheim
+Quedlinburg
+Radebeul
+Radolfzell
+Rastatt
+Ratingen
+Ravensburg
+Recklinghausen
+Regensburg
+Remscheid
+Rendsburg
+Reutlingen
+Rheda-Wiedenbruck
+Rheine
+Ribnitz-Damgarten
+Riesa
+Rodgau
+Rosenheim
+Rostock
+Rotenburg/Wumme
+Rothenburg/Tauber
+Rottenburg/ Neckar
+Rottweil
+Rugen
+Russelsheim
+Ruti (ZH)
+Saalfeld/Saale
+Saarbrucken
+Saarlouis
+Salzgitter
+Salzwedel
+Sangerhausen
+Sankt Augustin
+Sankt Ingbert
+Sankt Peter-Ording
+Schleiden
+Schleiz
+Schleswig
+Schmalkalden
+Schonebeck/ Elbe
+Schorndorf
+Schwabach
+Schwabisch Gmund
+Schwabisch Hall
+Schwedt/ Oder
+Schweinfurt
+Schwerin
+Schwerte
+Senftenberg
+Siegburg
+Siegen
+Sigmaringen
+Sindelfingen
+Singen/ Hohentwiel
+Sinsheim
+Soest
+Solingen
+Soltau
+Sommerda
+Speyer
+Stade
+Starnberg
+Steinfurt
+Stendal
+Stolberg/ Rheinland
+Stralsund
+Straubing
+Stuttgart
+Stuttgart Airport
+Suhl
+Sylt
+Tauberbischofsheim
+Tegernsee
+Torgau
+Traunstein
+Trier
+Troisdorf
+Tubingen
+Tuttlingen
+?berlingen
+Uelzen
+Ulm
+Unna
+Usedom
+Vechta
+Velbert
+Verden (Aller)
+Viersen
+Villingen-Schwenningen
+Volklingen
+Waiblingen
+Waldshut-Tiengen
+Wangen (Allgau)
+Warburg
+Waren (Muritz)
+Warendorf
+Wasserburg am Inn
+Weeze Airport
+Weiden/ Oberpfalz
+Weilheim in Oberbayern
+Weimar
+Weingarten (Wurtt.)
+Weinheim
+Wei?enburg/Bay.
+Wei?enfels
+Wei?wasser
+Wermelskirchen
+Wernigerode
+Wesel
+Wetzlar
+Wiesbaden
+Wilhelmshaven
+Willich
+Winterberg
+Wismar
+Witten
+Wittlich
+Wittstock/Dosse
+Wolfenbuttel
+Wolfsburg
+Worms
+Wunstorf
+Wuppertal
+Wurselen
+Wurzburg
+Zeitz
+Zittau
+Zweibrucken
+Zwickau
+Zwiesel

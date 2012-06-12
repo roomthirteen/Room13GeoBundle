@@ -1,0 +1,55 @@
+Asenovgrad
+Aytos
+Balchik
+Blagoevgrad
+Botevgrad
+Burgas
+Chirpan
+Dobrich
+Dupnitsa
+Gabrovo
+Gorna Oryahovitsa
+Gotse Delchev
+Harmanli
+Haskovo
+Kardzhali
+Karlovo
+Karnobat
+Kazanlak
+Knezha
+Kozloduy
+Kyustendil
+Lom
+Lovech
+Montana
+Nova Zagora
+Panagyurishte
+Pazardzhik
+Pernik
+Peshtera
+Petrich
+Pleven
+Plovdiv
+Popovo
+Radnevo
+Rakovski
+Razgrad
+Rousse
+Samokov
+Sandanski
+Sevlievo
+Shumen
+Silistra
+Sliven
+Smolyan
+Sofija
+Stara Zagora
+Svilengrad
+Svishtov
+Targovishte
+Troyan
+Varna
+Veliko Tarnovo
+Vidin
+Vratsa
+Yambol

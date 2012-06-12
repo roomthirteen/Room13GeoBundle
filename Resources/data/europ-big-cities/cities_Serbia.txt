@@ -1,0 +1,81 @@
+Ada
+Aleksinac
+Apatin
+Arandjelovac
+Backa Palanka
+Backa Topola
+Bajina Basta
+Becej
+Bela Crkva
+Beograd
+Bor
+Bujanovac
+Cacak
+Crvenka
+Cuprija
+Futog
+Gornji Milanovac
+Indjija
+Ivanjica
+Jagodina
+Kanjiza
+Kikinda
+Knjazevac
+Kovin
+Kragujevac
+Kraljevo
+Krusevac
+Kula
+Kursumlija
+Lazarevac
+Lebane
+Leskovac
+Loznica
+Majdanpek
+Mladenovac
+Negotin
+Nis
+Nova Varos
+Novi Becej
+Novi Pazar
+Novi Sad
+Obrenovac
+Odzaci
+Pancevo
+Paracin
+Petrovaradin
+Pirot
+Pozarevac
+Pozega
+Priboj
+Prijepolje
+Prokuplje
+Ruma
+Sabac
+Senta
+Sid
+Sjenica
+Smederevo
+Smederevska Palanka
+Sombor
+Srbobran
+Sremska Kamenica
+Sremska Mitrovica
+Stara Pazova
+Subotica
+Surcin
+Surdulica
+Svilajnac
+Temerin
+Trstenik
+Uzice
+Valjevo
+Velika Plana
+Vlasotince
+Vranje
+Vrbas
+Vrnjacka Banja
+Vrsac
+Zabalj
+Zajecar
+Zrenjanin

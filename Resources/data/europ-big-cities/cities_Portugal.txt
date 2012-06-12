@@ -1,0 +1,149 @@
+Abrantes
+Agualva-Cacem
+?gueda
+Albufeira
+Alcacer do Sal
+Alcobaca
+Almada
+Almeirim
+Alverca do Ribatejo
+Amadora
+Amarante
+Amora
+Anadia
+Angra do Heroismo
+Aveiro
+Barcelos
+Barreiro
+Beja
+Braga
+Braganca
+Caldas da Rainha
+Camara de Lobos
+Canico
+Cantanhede
+Cartaxo
+Castelo Branco
+Chaves
+Coimbra
+Costa da Caparica
+Covilha
+Elvas
+Entroncamento
+Ermesinde
+Esmoriz
+Espinho
+Esposende
+Estarreja
+Estremoz
+Evora
+Fafe
+Faro
+Fatima
+Felgueiras
+Fiaes
+Figueira da Foz
+Freamunde
+Funchal
+Fundao
+Gafanha da Nazare
+Gandra
+Gondomar
+Gouveia
+Guarda
+Guimaraes
+Horta
+Lagoa
+Lagos
+Lamego
+Leiria
+Lisbon
+Lixa
+Loule
+Loures
+Lourosa
+Macedo de Cavaleiros
+Maia
+Mangualde
+Marco de Canaveses
+Marinha Grande
+Matosinhos
+Mealhada
+Meda
+Miranda do Douro
+Mirandela
+Montemor-o-Novo
+Montijo
+Moura
+Odivelas
+Olhao da Restauracao
+Oliveira de Azemeis
+Oliveira do Bairro
+Oliveira do Hospital
+Ourem
+Ovar
+Pacos de Ferreira
+Paredes
+Penafiel
+Peniche
+Peso da Regua
+Pinhel
+Pombal
+Ponta Delgada
+Ponte de Sor
+Portalegre
+Portimao
+Porto
+Povoa de Santa Iria
+Povoa de Varzim
+Praia da Vitoria
+Quarteira
+Queluz
+Rebordosa
+Reguengos de Monsaraz
+Ribeira Grande
+Rio Maior
+Rio Tinto
+Sabugal
+Sacavem
+Santa Comba Dao
+Santa Cruz
+Santa Maria da Feira
+Santana
+Santarem
+Santiago do Cacem
+Santo Tirso
+Sao Joao da Madeira
+Sao Mamede de Infesta
+Sao Salvador de Lordelo
+Seia
+Seixal
+Serpa
+Setubal
+Silves
+Sines
+Tarouca
+Tavira
+Tomar
+Tondela
+Torres Novas
+Torres Vedras
+Trancoso
+Trofa
+Valbom
+Vale de Cambra
+Valongo
+Valpacos
+Vendas Novas
+Viana do Castelo
+Vila Baleira (a.k.a. Porto Santo)
+Vila do Conde
+Vila Franca de Xira
+Vila Nova de Famalicao
+Vila Nova de Foz Coa
+Vila Nova de Gaia
+Vila Nova de Santo Andre
+Vila Real
+Vila Real de Santo Antonio
+Viseu
+Vizela

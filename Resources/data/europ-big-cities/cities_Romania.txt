@@ -1,0 +1,193 @@
+Adjud
+Agnita
+Aiud
+Alba Iulia
+Alesd
+Alexandria
+Arad
+Avrig
+Babadag
+Bacau
+Baia Mare
+Baia Sprie
+Baicoi
+Bailesti
+Bals
+Barlad
+Beclean
+Beius
+Bistrita
+Blaj
+Bocsa
+Boldesti-Scaeni
+Bolintin-Vale
+Borsa
+Botosani
+Brad
+Braila
+Brasov
+Breaza
+Bukurest
+Buftea
+Buhusi
+Bumbesti-Jiu
+Busteni
+Buzau
+Calafat
+Calan
+Calarasi
+Campia Turzii
+Campina
+Campulung
+Campulung Moldovenesc
+Caracal
+Caransebes
+Carei
+Cernavoda
+Chitila
+Cisnadie
+Cluj-Napoca
+Codlea
+Comanesti
+Comarnic
+Constanta
+Corabia
+Costesti
+Covasna
+Craiova
+Cristuru Secuiesc
+Cugir
+Curtea de Arges
+Dabuleni
+Darabani
+Darmanesti
+Dej
+Deva
+Dolhasca
+Dorohoi
+Draganesti-Olt
+Dragasani
+Drobeta-Turnu Severin
+Fagaras
+Falticeni
+Fetesti
+Filiasi
+Focsani
+Gaesti
+Galati
+Gheorgheni
+Gherla
+Giurgiu
+Gura Humorului
+Harlau
+Harsova
+Hateg
+Hunedoara
+Husi
+Ianca
+Iasi
+Jibou
+Lipova
+Ludus
+Lugoj
+Lupeni
+Macin
+Mangalia
+Marasesti
+Marghita
+Medgidia
+Medias
+Miercurea Ciuc
+Mioveni
+Mizil
+Moinesti
+Moldova Noua
+Moreni
+Motru
+Murfatlar
+Nasaud
+Navodari
+Negresti-Oas
+Nehoiu
+Ocna Mures
+Odorheiu Secuiesc
+Oltenita
+Onesti
+Oradea
+Orastie
+Oravita
+Orsova
+Otelu Rosu
+Ovidiu
+Pantelimon
+Pascani
+Pecica
+Petrila
+Petrosani
+Piatra Neamt
+Pitesti
+Ploiesti
+Popesti-Leordeni
+Pucioasa
+Radauti
+Ramnicu Sarat
+Ramnicu Valcea
+Rasnov
+Reghin
+Resita
+Roman
+Rosiorii de Vede
+Rovinari
+Sacele
+Sacueni
+Salonta
+Sannicolau Mare
+Santana
+Satu Mare
+Scornicesti
+Sebes
+Sfantu Gheorghe
+Sibiu
+Sighetu Marmatiei
+Sighisoara
+Simeria
+Simleu Silvaniei
+Sinaia
+Slatina
+Slobozia
+Sovata
+Stefanesti
+Strehaia
+Suceava
+Tandarei
+Targoviste
+Targu Frumos
+Targu Jiu
+Targu Lapus
+Targu Mures
+Targu Neamt
+Targu Ocna
+Targu Secuiesc
+Tarnaveni
+Tecuci
+Timisoara
+Titu
+Toplita
+Tulcea
+Turda
+Turnu Magurele
+Uricani
+Urlati
+Urziceni
+Valenii de Munte
+Vaslui
+Vatra Dornei
+Vicovu de Sus
+Victoria
+Videle
+Viseu de Sus
+Voluntari
+Vulcan
+Zalau
+Zarnesti
+Zimnicea

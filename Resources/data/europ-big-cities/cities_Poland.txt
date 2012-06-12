@@ -1,0 +1,43 @@
+Bialystok
+Bielsko-Biala
+Bydgoszcz
+Bytom 
+Chorzow 
+Czestochowa
+Dabrowa Gornicza 
+Elblag
+Gdansk
+Gdynia
+Gliwice 
+Gorzow Wielkopolski
+Grudziadz
+Jastrzebie Zdroj
+Jaworzno 
+Kalisz
+Katowice
+Kielce
+Koszalin
+Krakov
+Legnica
+Lodz
+Lublin
+Olsztyn
+Opole
+Plock
+Poznan
+Radom
+Ruda Slaska 
+Rybnik
+Rzeszow
+Slupsk
+Sosnowiec 
+Szczecin
+Tarnow
+Torun
+Tychy 
+Walbrzych
+Varsava
+Wloclawek
+Wroclaw
+Zabrze 
+Zielona Gora
