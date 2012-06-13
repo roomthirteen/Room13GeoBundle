@@ -3,11 +3,11 @@
 namespace Room13\GeoBundle\Solr;
 
 
-use Room13\SolrBundle\Solr\Index\DoctrineSolrIndex;
+use Room13\SolrBundle\Solr\DoctrineIndex;
 
 use Doctrine\ORM\EntityManager;
 
-class LocationIndex extends DoctrineSolrIndex
+class LocationIndex extends DoctrineIndex
 {
 
     public function getName()
