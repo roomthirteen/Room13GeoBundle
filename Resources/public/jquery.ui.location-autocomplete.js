@@ -1,6 +1,5 @@
 
-$('.Room13GeoLocationWidget').each(function()
-{
+$.fn.room13GeoLocationWidget = function(){
 
 
 
@@ -62,4 +61,10 @@ $('.Room13GeoLocationWidget').each(function()
         select: locationSelected,
         search: searchStarted
     });
+
+}
+
+
+$('.Room13GeoLocationWidget').each(function(){
+    $(this).room13GeoLocationWidget();
 });
