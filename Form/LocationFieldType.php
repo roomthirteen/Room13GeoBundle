@@ -3,6 +3,7 @@
 namespace Room13\GeoBundle\Form;
 
 use Symfony\Component\Form as Form;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 class LocationFieldType extends Form\AbstractType
 {
@@ -18,18 +19,19 @@ class LocationFieldType extends Form\AbstractType
       $this->dataTransformer = $dataTransformer;
     }
 
-    public function buildView(Form\FormView $view, Form\FormInterface $form)
+    public function buildView(Form\FormView $view, Form\FormInterface $form, array $options)
     {
-        parent::buildView($view, $form);
+
+        parent::buildView($view, $form, $options);
 
         if($form->getData()!==null)
         {
-            $view->set('location',$form->getData());
-            $view->set('has_location',true);
+            $view->location = $form->getData();
+            $view->has_location = true;
         }
         else
         {
-            $view->set('has_location',false);
+            $view->has_location = false;
         }
     }
 
@@ -37,7 +39,7 @@ class LocationFieldType extends Form\AbstractType
     /**
      * {@inheritdoc}
      */
-    public function buildForm(Form\FormBuilder $builder, array $options)
+    public function buildForm(Form\FormBuilderInterface $builder, array $options)
     {
         $builder
             ->prependClientTransformer($this->dataTransformer)
@@ -46,16 +48,15 @@ class LocationFieldType extends Form\AbstractType
         ;
     }
 
-    public function getDefaultOptions()
+    public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
-        return array(
+        $resolver->setDefaults(array(
             'widget_class'      => 'Room13LocationType',
             'error_bubbling'    => false,
-        );
+        ));
     }
 
-
-    public function getParent(array $options)
+    public function getParent()
     {
         return 'field';
     }
