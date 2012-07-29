@@ -20,7 +20,7 @@ class City extends Location
 
 
     /**
-     * @ORM\OneToMany(targetEntity="Spot", mappedBy="spots")
+     * @ORM\OneToMany(targetEntity="Spot", mappedBy="city")
      */
     private $spots;
 
