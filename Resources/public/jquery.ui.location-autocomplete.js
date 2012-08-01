@@ -36,7 +36,7 @@
 
         function inputFocused()
         {
-            target.select();
+            input.select();
         }
 
         function dataLoaded(data,response)
@@ -59,6 +59,7 @@
             // write back id to hidden field
             // the input field will be populated automaticly by the autocomplete widget
             output.val(ui.item.id);
+            output.trigger('change');
         }
 
         function searchStarted()
@@ -74,7 +75,6 @@
             source: function (request, response) {
 
                 sourceUrl = target.data('source');
-                console.log(sourceUrl);
 
                 $.ajax({
                     url: sourceUrl,
