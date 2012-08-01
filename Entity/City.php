@@ -4,6 +4,7 @@ namespace Room13\GeoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
+use JMS\SerializerBundle\Annotation as Serializer;
 
 /**
  * @ORM\Entity
@@ -15,12 +16,16 @@ class City extends Location
      * @var Country
      * @ORM\ManyToOne(targetEntity="Country", inversedBy="cities")
      * @ORM\JoinColumn(name="country_id", referencedColumnName="id", onDelete="SET NULL")
+     *
      */
     private $country;
 
 
     /**
      * @ORM\OneToMany(targetEntity="Spot", mappedBy="city")
+     *
+     * @Serializer\Exclude()
+     *
      */
     private $spots;
 

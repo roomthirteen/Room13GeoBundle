@@ -5,6 +5,7 @@ namespace Room13\GeoBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Translatable\Translatable;
+use JMS\SerializerBundle\Annotation as Serializer;
 
 /**
  * Room13\GeoBundle\Entity\Location
@@ -63,6 +64,9 @@ abstract class Location implements Translatable
      *
      * @Gedmo\Timestampable(on="create")
      * @ORM\Column(type="datetime")
+     *
+     * @Serializer\Exclude()
+     *
      */
     protected $created;
 
@@ -71,6 +75,9 @@ abstract class Location implements Translatable
      *
      * @Gedmo\Timestampable(on="update")
      * @ORM\Column(type="datetime")
+     *
+     * @Serializer\Exclude()
+     *
      */
     protected $updated;
 

@@ -3,6 +3,7 @@
 namespace Room13\GeoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JMS\SerializerBundle\Annotation as Serializer;
 
 /**
  * Room13\GeoBundle\Entity\Spot

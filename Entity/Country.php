@@ -4,6 +4,7 @@ namespace Room13\GeoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
+use JMS\SerializerBundle\Annotation as Serializer;
 
 /**
  * @ORM\Entity
@@ -19,6 +20,9 @@ class Country extends Location
 
     /**
      * @ORM\OneToMany(targetEntity="City", mappedBy="country")
+     *
+     * @Serializer\Exclude()
+     *
      */
     private $cities;
 
@@ -30,6 +34,9 @@ class Country extends Location
      *      joinColumns={@ORM\JoinColumn(name="country_id", referencedColumnName="id")},
      *      inverseJoinColumns={@ORM\JoinColumn(name="language_id", referencedColumnName="id")}
      * )
+     *
+     * @Serializer\Exclude()
+     *
      */
     private $languages;
 
