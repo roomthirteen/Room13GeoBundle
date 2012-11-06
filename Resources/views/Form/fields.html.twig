@@ -1,9 +1,9 @@
 {% block room13_geo_location_widget %}
 {% set attr = attr|merge({'class': 'Room13GeoLocationWidget'}) %}
-<div {{ block('widget_container_attributes') }} data-source="{{path("room13_geo_autocomplete_location",{type:"city"})}}">
+<span {{ block('widget_container_attributes') }} data-source="{{path("room13_geo_autocomplete_location",{type:"city"})}}">
       {{ form_widget(form.id) }}
       {{ form_widget(form.name) }}
-      {{form_errors(form)}}
+
       <img style="" class="Loader" src="{{ asset('bundles/room13geo/loader.gif') }}" />
-</div>
+</span>
 {% endblock %}

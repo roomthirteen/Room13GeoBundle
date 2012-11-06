@@ -44,7 +44,10 @@ class LocationFieldType extends Form\AbstractType
         $builder
             ->prependClientTransformer($this->dataTransformer)
             ->add('id','hidden')
-            ->add('name','text')
+            ->add('name','text',array(
+                'property_path'=>null,
+                'cascade_validation'=>false,
+            ))
         ;
     }
 
@@ -53,6 +56,7 @@ class LocationFieldType extends Form\AbstractType
         $resolver->setDefaults(array(
             'widget_class'      => 'Room13LocationType',
             'error_bubbling'    => false,
+            'cascade_validation'=>false,
         ));
     }
 
