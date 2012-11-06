@@ -5,6 +5,7 @@ namespace Room13\GeoBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Translatable\Translatable;
+use JMS\SerializerBundle\Annotation as Serializer;
 
 /**
  * @ORM\Entity
@@ -53,6 +54,15 @@ class Language implements Translatable
      * this is not a mapped field of entity metadata, just a simple property
      */
     protected $locale;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     * @ORM\ManyToMany(targetEntity="Country", mappedBy="languages")
+     *
+     * @Serializer\Exclude()
+     *
+     */
+    private $countries;
 
     function __construct()
     {
